@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="crosshairindicator"
+version="1.0.0"
+displayName="Crosshair Indicator"
+description='''
+Shows a dynamic crosshair that changes based on what you are looking at.
+Block names, entity names, and attack indicator all shown near the crosshair.
+'''
+
+[[dependencies.crosshairindicator]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.crosshairindicator]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
